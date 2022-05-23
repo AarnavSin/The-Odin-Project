@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Links and Images</title>
+    </head>
+
+    <body>
+
+        <h1>Homepage</h1>
+
+        <!--The anchor tag is used to add links.-->
+        <a>Click me!</a>
+
+        <!--This on its own wouldn't go anywhere. We need to add an HTML attribute, like so.-->
+        <a href="https://aarnavsin.github.io/">Click me!</a>
+
+        <!--The href attribute stands for hyperlink reference.-->
+        <!--Links like the above on are called Absolute Links, they lead to links on other websites 
+            on the internet.-->
+
+        <!--Relative Links link to other pages in our own website.-->
+        <a href="about.html">About</a>
+        
+        <!--This works because the index and about page are in the same directory. 
+            That means we can simply use its name (about.html) as the link’s href value.-->
+
+        <!--If we organise our pages better, using folders, we can link those here too, like so.-->
+        <a href="./pages/otherabout.html">About Again</a>
+
+        <!--We can display images on a website by using the <img> tag and the src attribute.
+            the src attribute works much like href. Works for both absolute and relative 
+            paths.-->
+        <img src="https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/large/800/Kazuma-Kiryu.Yakuza.webp">
+        <img src="./images/kiryu.webp">
+    </body>
+</html>
