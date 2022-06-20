@@ -15,23 +15,6 @@ body {
   justify-content: center;
 }
 
-.header {
-    font-weight: 900;
-    font-size: large;
-    display: flex;
-    align-items:flex-start;
-    justify-content: center;
-    flex-wrap: wrap;
-    max-height: 20px;
-}
-
-.text {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
 .modal {
   background: white;
   width: 480px;
@@ -70,13 +53,22 @@ body {
   flex-shrink: 0;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.text {
+  margin-bottom: 15px;
+}
+
 button {
   padding: 8px 16px;
   border-radius: 8px;
-  display: flex;    
-  align-items: center;
-  justify-content: center;
-  max-height: 40px;
 }
 
 button.continue {
