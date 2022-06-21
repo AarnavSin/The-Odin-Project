@@ -53,13 +53,16 @@ body {
   flex-shrink: 0;
 }
 
-.header {
+.headercontainer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.header {
   font-size: 18px;
   font-weight: 700;
-  margin-bottom: 8px;
 }
 
 .text {
