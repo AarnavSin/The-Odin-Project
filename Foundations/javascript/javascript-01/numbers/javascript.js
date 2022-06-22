@@ -131,3 +131,18 @@ console.log(x)
 x /= y; //Divides x by y, changes x value to the quotient
 console.log(x)
 
+
+//Comparison Operators
+
+/*
+
+=== ~ Strict equality
+!== ~ strict non-equality
+< ~ Less than
+> ~ Greater than
+<= ~ Less than or equal to
+>= ~ Greater than or equal to
+
+*/
+
+
