@@ -1,0 +1,45 @@
+Name the three ways to declare a variable?
+- let, var, const
+
+Which of the three variable declarations should you avoid and why?
+- var, because its older
+
+What rules should you follow when naming variables?
+- a variable can include any letters, numbers and symbols $ and _
+- a variable cannot start with a number
+- variables are case sensitive
+
+What should you look out for when using the + operator with numbers and strings?
+- when using + operator between numbers and strings, it will concatenate them.
+- for eg, if you add '55' + 50, it will return 5550.
+- to solve this, you must convert a string to a number by using Number().
+
+How does the % operator work?
+- % operator is the modulo operator. it returns the remainder of a division.
+
+Explain the difference between == and ===.
+- == is lenient. if you compare a number and a converted number Number(), it will be true.
+- === is strict. if you compare a number and a converted number Number(), it will be false.
+
+When would you receive a NaN result?
+- When a Not a Number value is used in an arithmetic context.
+
+How do you increment and decrement a number?
+- we can increment or decrement by adding ++ or -- to the start or end of the number/variable.
+
+Explain the difference between prefixing and post-fixing increment/decrement operators.
+- prefixing inc/dec operators makes the incremented/decremented value return on the same line.
+- postfixing those operators makes the incremented/decremented value return on the next line instead
+  of the same one.
+
+What is operator precedence and how is it handled in JS?
+- BODMAS applies to JavaScript.
+
+How do you access developer tools and the console?
+-Right click, inspect or F12
+
+How do you log information to the console?
+- console.log()
+
+What does unary plus operator do to string representations of integers?
+- 
