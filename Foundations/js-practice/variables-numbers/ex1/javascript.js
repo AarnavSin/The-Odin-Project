@@ -45,3 +45,44 @@ let b = 7 * a returns undefined and so you cannot
 declare and assign a value to a variable and read its value in the 
 same line.
 */
+
+//Following javascript.info
+
+//Unary negation
+
+let x = 1;
+
+x = -x;
+console.log(x);
+
+//Binary
+x = 1
+let y = 3;
+console.log(y - x);
+
+//Unary plus converts to numbers
+
+// No effect on numbers
+let num1 = 1;
+console.log( +num1 ); // 1
+
+let num2 = -2;
+console.log( +num2 ); // -2
+
+// Converts non-numbers
+console.log( +true ); // 1
+console.log( +"" );   // 0
+
+//They can be used to add numbers that are in strings
+
+let apples = "2";
+let oranges = "3";
+
+console.log(apples + oranges); //this concatenates the two values
+
+console.log(+apples + +oranges); //this treats the strings as numbers and hence we get the correct sum
+
+// comma (,) operator
+
+let comma = (1 + 2, 3 + 4)
+console.log(comma)

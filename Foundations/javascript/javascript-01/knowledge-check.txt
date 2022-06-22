@@ -42,4 +42,4 @@ How do you log information to the console?
 - console.log()
 
 What does unary plus operator do to string representations of integers?
-- 
+- Converts them to Number
