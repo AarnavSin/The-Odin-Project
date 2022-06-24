@@ -132,11 +132,31 @@ The symbol type is used to create unique identifiers for objects.
 console.log(typeof undefined)
 console.log(typeof 0)
 console.log(typeof 10n)
+console.log(typeof Math) //Math is a built in object for mathematical operations
+console.log(typeof null) //null returns object. That’s an officially recognized error in typeof, coming from very early days of JavaScript and kept for compatibility. 
+console.log(typeof alert) //alert comes under functions, but functions come under objects. There is no seperate type for functions, yet typeof treats them differently.
 
-//and so on.
+//Sumarry
 
 /*
-Bonus info to be added tomorrow.
+There are 8 basic data types in JavaScript.
+
+Seven primitive data types:
+number for numbers of any kind: integer or floating-point, integers are limited by ±(253-1).
+bigint for integer numbers of arbitrary length.
+string for strings. A string may have zero or more characters, there’s no separate single-character type.
+boolean for true/false.
+null for unknown values – a standalone type that has a single value null.
+undefined for unassigned values – a standalone type that has a single value undefined.
+symbol for unique identifiers.
+And one non-primitive data type:
+object for more complex data structures.
+The typeof operator allows us to see which type is stored in a variable.
+
+Usually used as typeof x, but typeof(x) is also possible.
+Returns a string with the name of the type, like "string".
+For null returns "object" – this is an error in the language, it’s not actually an object.
+In the next chapters, we’ll concentrate on primitive values and once we’re familiar with them, we’ll move on to objects.
 */
 
 
