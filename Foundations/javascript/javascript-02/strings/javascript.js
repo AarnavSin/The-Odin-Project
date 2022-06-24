@@ -141,4 +141,3 @@ let arrayStr = "I, am the greatest man of all time, and you will agree. | He sai
 console.log(arrayStr.split(",")) //new item after every ,
 console.log(arrayStr.split(" ")) //new item after every space
 console.log(arrayStr.split("|")) //new item after every |
-

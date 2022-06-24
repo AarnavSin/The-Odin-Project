@@ -158,7 +158,3 @@ Returns a string with the name of the type, like "string".
 For null returns "object" – this is an error in the language, it’s not actually an object.
 In the next chapters, we’ll concentrate on primitive values and once we’re familiar with them, we’ll move on to objects.
 */
-
-
-
-
