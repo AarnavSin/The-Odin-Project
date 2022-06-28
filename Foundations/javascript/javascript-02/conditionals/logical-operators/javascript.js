@@ -90,3 +90,52 @@ console.log(!!null) //false
 That is, the first NOT converts the value to boolean and returns the inverse,
  and the second NOT inverses it again. In the end, we have a plain value-to-boolean conversion.
 */
+
+//You can also do this via the boolean function
+
+console.log(Boolean("non-empty string!")) //true
+console.log(Boolean(null)) //false
+
+//The precedence of NOT ! is the highest of all logical operators, so it always executes first, before && or ||.
+
+//Conditional Operator
+
+//Instead of if/else statements, we can utilise ?
+
+let age = 18
+let accessAllowed = (age >= 18) ? true : false
+console.log(accessAllowed) //true
+
+//The same code could've been written as
+
+if (age >= 18) {
+    console.log(true)
+} else {
+    console.log(false)
+} //true
+
+//Tasks
+
+/*
+let userPrompt = prompt("What is the official name of JavaScript?", " ")
+
+if (userPrompt == "ECMAScript") {
+    alert("Right!")
+} else if (userPrompt == "ecmascript") {
+    alert("Right!")
+} else {
+    alert("You don't know? “ECMAScript”!")
+}
+*/
+
+/*
+let userPrompt2 = prompt("Type a number", 0)
+
+if (userPrompt2 > 0) {
+    alert("1")
+} else if (userPrompt2 < 0) {
+    alert("-1")
+} else {
+    alert("0")
+}
+*/
